@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Controls</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Toggle CSS -->
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="custom-control custom-switch">
+        <input type="checkbox" class="custom-control-input" id="darkSwitch" />
+       <b> Mode </b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label class="custom-control-label" id="mode"
+            for="darkSwitch"></label>
+    </div>
+
+    <div class="container">
+        <h1 class="head">TEXT CONTROLS</h1>
+        <div class="container mt-2 m-3">
+        <div class="form-group">
+          <label for="exampleTextarea">Enter the text to convert </label>
+          <textarea class="form-control" id="exampleTextarea" rows="6"></textarea>
+        </div>
+
+
+        <p id="wordCount">Words Count: 0</p>
+        <button type="button" onclick="capital()" class="btn m-2 btn-danger">Capital Case</button>
+        <button type="button" onclick="lower()"   class="btn m-2 btn-success">Small Case</button>
+        <button type="button" onclick="titled()"  class="btn m-2 btn-warning">Title Case</button>
+        <button type="button" onclick="copy()"  class="btn m-2 btn-secondary">Copy Text</button>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap Toggle JS -->
+    <script src="script.js"></script>
+    <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+</body>
+
+</html>
+
+
+
+
